@@ -165,14 +165,14 @@
     "href": "aula_py_01.html#o-arquivo-.ipynb",
     "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
     "section": "O arquivo .ipynb",
-    "text": "O arquivo .ipynb\n\n“Quando salvar o notebook […] um arquivo com a extensão .ipynb será criado. É um formato de arquivo autocontido, com todo o conteúdo (incluindo qualquer saída de código avaliada) que estiver no notebook no momento.” (McKinney, 2017, p. 51)"
+    "text": "O arquivo .ipynb\n\n“Quando salvar o notebook… um arquivo com a extensão .ipynb será criado. É um formato de arquivo autocontido, com todo o conteúdo (incluindo qualquer saída de código avaliada) que estiver no notebook no momento.” (McKinney, 2017, p. 51)"
   },
   {
     "objectID": "aula_py_01.html#google-colab",
     "href": "aula_py_01.html#google-colab",
     "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
     "section": "Google Colab",
-    "text": "Google Colab\n\nNotebook Jupyter rodando na nuvem do Google: nada de instalar localmente.\nCélulas de código e de texto; salvamento automático no Google Drive.\nCompartilhamento e colaboração, como um documento do Google.\nAcesso a recursos de computação (incluindo GPU) — relevante em Machine Learning.\n\n\nExecute com Shift-Enter (ou no botão de play).\nAdicione uma célula de texto (markdown) com seu nome e o título da prática."
+    "text": "Google Colab\n\nNotebook Jupyter rodando na nuvem do Google: (quase) nada de instalar Python (ou R) localmente.\nCélulas de código e de texto; salvamento automático no Google Drive.\nCompartilhamento e colaboração, como um documento do Google.\nAcesso a recursos de computação (incluindo GPU) — relevante em Machine Learning.\nExecute com Shift-Enter (ou no botão de play)."
   },
   {
     "objectID": "aula_py_01.html#links-para-começar",
@@ -186,7 +186,7 @@
     "href": "aula_py_01.html#passo-a-passo-no-colab",
     "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
     "section": "Passo a passo no Colab",
-    "text": "Passo a passo no Colab\n\nAcesse colab.research.google.com (conta Google) e crie um novo notebook.\nRenomeie: “aula01_teste.ipynb”.\nNa primeira célula de código:\n\nprint(\"Olá, mundo!\")"
+    "text": "Passo a passo no Colab\n\nAcesse colab.research.google.com (conta Google) e crie um novo notebook.\nRenomeie: “aula01.ipynb”.\nNa primeira célula de código:\n\nprint(\"Olá, mundo!\")"
   },
   {
     "objectID": "aula_py_01.html#outras-formas-de-carregar-dados",
@@ -200,7 +200,7 @@
     "href": "aula_py_01.html#fórmulas-matemáticas-latex",
     "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
     "section": "Fórmulas matemáticas (LaTeX)",
-    "text": "Fórmulas matemáticas (LaTeX)\n\nO Colab renderiza LaTeX dentro de células de texto\n\n\\[y = \\beta_0 + \\beta_1 x + \\varepsilon\\]\n\nÚtil em pesquisa: estatística, equações, símbolos (\\(\\alpha\\), \\(\\beta\\), \\(\\mu\\)…)"
+    "text": "Fórmulas matemáticas (LaTeX)\nLatex é outra linguagem de marcação, utilizada na escrita de texto científico que necessita de utilizar fórmulas matemáticas. É mais complexa que markdown\n$$y = \\beta_0 + \\beta_1 x + \\varepsilon$$\n\\[y = \\beta_0 + \\beta_1 x + \\varepsilon\\]\n\nÚtil em pesquisa: estatística, equações, símbolos (\\(\\alpha\\), \\(\\beta\\), \\(\\mu\\)…)\nO Colab renderiza LaTeX dentro de células de texto"
   },
   {
     "objectID": "aula_py_01.html#comunidades-python---pyladies",
@@ -228,6 +228,132 @@
     "href": "aula_py_01.html#markdown-utilizado-no-notebook",
     "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
     "section": "markdown (utilizado no notebook)",
-    "text": "markdown (utilizado no notebook)\nMarkdown é um tipo de linguagem de marcação (markup), utilizada para formatar texto de forma fácil, leve e rápida.\nExemplo de editor online com sintaxe markdown dillinger Tutorial Básico do markdown"
+    "text": "markdown (utilizado no notebook)\nMarkdown é um tipo de linguagem de marcação (markup), utilizada para formatar texto de forma fácil, leve e rápida. Semelhante às utilizada no WhatsApp"
+  },
+  {
+    "objectID": "aula_py_01.html#google-colab-1",
+    "href": "aula_py_01.html#google-colab-1",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "Google Colab",
+    "text": "Google Colab\n\nNotebook Jupyter rodando na nuvem do Google: nada de instalar localmente.\nCélulas de código e de texto; salvamento automático no Google Drive.\nCompartilhamento e colaboração, como um documento do Google.\nAcesso a recursos de computação (incluindo GPU) — relevante em Machine Learning.\nExecute com Shift-Enter (ou no botão de play).\nAdicione uma célula de texto (markdown) com seu nome e o título da prática."
+  },
+  {
+    "objectID": "aula_py_01.html#notebook-1",
+    "href": "aula_py_01.html#notebook-1",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "notebook",
+    "text": "notebook\n\nCódigo, texto (markdown) e resultados no mesmo arquivo.\nCélulas executadas com Shift-Enter."
+  },
+  {
+    "objectID": "aula_py_01.html#mais-detalhes",
+    "href": "aula_py_01.html#mais-detalhes",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "Mais detalhes",
+    "text": "Mais detalhes\nExemplo de editor online com sintaxe markdown dillinger\nTutorial Básico do markdown"
+  },
+  {
+    "objectID": "aula_py_01.html#células-de-texto-markdown-no-colab",
+    "href": "aula_py_01.html#células-de-texto-markdown-no-colab",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "Células de texto: Markdown no Colab",
+    "text": "Células de texto: Markdown no Colab\nDo cheat sheet — o Colab também aceita tags HTML (&lt;b&gt;, &lt;i&gt;, &lt;table&gt;, &lt;br&gt;, &lt;hr&gt;…) nas células de texto:\n\n\n\nPara…\nMarkdown\n\n\n\n\nTítulos (1 a 6)\n# ## … ######\n\n\nNegrito / itálico\n**texto** / *texto*\n\n\nRiscado\n~~texto~~\n\n\nLista numerada / itens\n1. / *\n\n\nLink\n[texto](url)\n\n\nImagem (com alt)\n![alt](url)\n\n\nCódigo inline\n`código`\n\n\nCitação / recuo\n&gt; texto\n\n\nRégua horizontal\n---\n\n\nFórmula matemática\n$x^2$ ou $$\\sum_{i=1}^n x_i$$"
+  },
+  {
+    "objectID": "aula_py_01.html#markdown-mais-detalhes",
+    "href": "aula_py_01.html#markdown-mais-detalhes",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "Markdown: Mais detalhes",
+    "text": "Markdown: Mais detalhes\nExemplo de editor online com sintaxe markdown dillinger\nTutorial Básico do markdown"
+  },
+  {
+    "objectID": "aula_py_01.html#notebook---google-colab",
+    "href": "aula_py_01.html#notebook---google-colab",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "notebook - Google Colab",
+    "text": "notebook - Google Colab"
+  },
+  {
+    "objectID": "aula_py_01.html#comandos-linux-no-colab",
+    "href": "aula_py_01.html#comandos-linux-no-colab",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "Comandos Linux no Colab",
+    "text": "Comandos Linux no Colab\n\nNo Colab não há terminal tradicional: comande o shell com ! no início da linha\n\n!ls # lista arquivos da pasta\n!pwd # mostra a pasta atual\n!cat arquivo.txt # mostra o conteúdo do arquivo\n!python --version # qual a versão python instalada\n\n!ls, !pwd, !cat, !wget, !curl, uname -r, --version, --help…\nDica: a saída pode ser capturada em Python — arquivos = !ls guarda uma lista\n\n\n\n\n\n\n\n!cd não muda a pasta\n\n\nCada comando ! roda em um subprocesso que é encerrado logo após. Para mudar de diretório permanentemente, use a magia %cd /caminho/da/pasta."
+  },
+  {
+    "objectID": "aula_py_01.html#magias-e",
+    "href": "aula_py_01.html#magias-e",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "Magias (% e %%)",
+    "text": "Magias (% e %%)\n\n% (magia de linha): afeta o próprio notebook, não um subprocesso\n\n%cd /caminho/da/pasta — muda o diretório de verdade\n%time — mede o tempo de um comando\n\n%% (magia de célula): vale para a célula inteira, linha inicial\n\n%%bash\npwd\nls -a\n%%writefile teste.txt\nO conteúdo desta célula é salvo em /content/teste.txt\n\nOutras úteis: %%time (tempo da célula), %%capture (oculta a saída)"
+  },
+  {
+    "objectID": "aula_py_01.html#instalação-de-pacotes-e-ambiente",
+    "href": "aula_py_01.html#instalação-de-pacotes-e-ambiente",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "Instalação de pacotes e ambiente",
+    "text": "Instalação de pacotes e ambiente\n\npip install: bibliotecas Python — !pip install nome_da_biblioteca\n\nA instalação é temporária: se perde ao reiniciar o ambiente\nVersão fixa: !pip install pandas==2.2.2\n\napt-get install: pacotes do sistema (não-Python) — !sudo apt-get install -y ffmpeg\nwget / curl: baixam arquivos da internet — !wget https://site.com/arquivo.zip\ngdown: baixa arquivos do Google Drive por link compartilhável\n\n!pip install gdown\n!gdown --fuzzy \"https://drive.google.com/file/d/SEU_ID/view?usp=sharing\"\n\n\n\n\n\n\nPor que reinstallar?\n\n\nA VM é descartável: a cada sessão o ambiente volta ao estado original. Guarde a lista de pacotes (ex.: um bloco !pip install -r requirements.txt) para recriá-la rápido."
+  },
+  {
+    "objectID": "aula_py_01.html#o-que-é-o-google-colab",
+    "href": "aula_py_01.html#o-que-é-o-google-colab",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "O que é o Google Colab?",
+    "text": "O que é o Google Colab?\n\nColaboratory: ambiente de notebooks Jupyter 100% na nuvem, do Google\nRoda Python no navegador — não precisa instalar nada, só ter uma conta Google\nGratuito, com acesso a GPU e TPU\nMistura células de código (Python/shell) e células de texto (Markdown/HTML)\nCompartilhamento e edição em conjunto, como um Google Docs"
+  },
+  {
+    "objectID": "aula_py_01.html#por-que-usar-o-colab",
+    "href": "aula_py_01.html#por-que-usar-o-colab",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "Por que usar o Colab?",
+    "text": "Por que usar o Colab?\n\nZero configuração: abre e já roda\nBibliotecas já pré-instaladas: pandas, numpy, matplotlib, scikit-learn…\nIntegração com Google Drive e GitHub\nDocumentação viva: código + texto explicativo no mesmo arquivo\nBom para aulas, protótipos rápidos e análise de dados em grupo"
+  },
+  {
+    "objectID": "aula_py_01.html#como-funciona-máquina-virtual-temporária",
+    "href": "aula_py_01.html#como-funciona-máquina-virtual-temporária",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "Como funciona: máquina virtual temporária",
+    "text": "Como funciona: máquina virtual temporária\n\nCada notebook roda em uma máquina virtual (VM) temporária na nuvem\nApós muito tempo parado, o ambiente desconecta (~90 min de inatividade), para economizar recursos\nSessões também têm duração máxima (≈ 12 h, varia conforme demanda da plataforma)\nCódigo e texto ficam salvos no notebook (no Drive)…\n\n\n\n\n\n\n\n…mas os arquivos não\n\n\nAo desconectar, tudo que estava no disco da VM é apagado. Guarde dados e resultados no Google Drive."
+  },
+  {
+    "objectID": "aula_py_01.html#o-sistema-de-arquivos",
+    "href": "aula_py_01.html#o-sistema-de-arquivos",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "O sistema de arquivos",
+    "text": "O sistema de arquivos\n\n/content é a pasta de trabalho da VM\n\npwd    # → /content\nls -a  # lista os arquivos, inclusive ocultos\n\nArquivos enviados pelo upload (ícone de pasta 📁 à esquerda) caem em /content\nAo reiniciar o ambiente, essa pasta é esvaziada\nVersões do ambiente (mudam com atualizações — sempre confira):\n\npython --version   # ex.: Python 3.13\nuname -a           # kernel, arquitetura etc."
+  },
+  {
+    "objectID": "aula_py_01.html#atalhos-de-teclado",
+    "href": "aula_py_01.html#atalhos-de-teclado",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "Atalhos de teclado",
+    "text": "Atalhos de teclado\n\n\n\nAtalho\nAção\n\n\n\n\nCtrl+Enter\nexecuta a célula\n\n\nShift+Enter\nexecuta e vai para a próxima\n\n\nCtrl+M B / Ctrl+M A\nnova célula abaixo / acima\n\n\nCtrl+M D\napaga a célula\n\n\nCtrl+M Y / Ctrl+M M\nconverte em código / texto\n\n\nCtrl+S\nsalva o notebook\n\n\n\n\n\n\n\n\n\nLista completa\n\n\nCtrl+M H abre a lista de todos os atalhos (também no menu Ferramentas → Atalhos de teclado)."
+  },
+  {
+    "objectID": "aula_py_01.html#montar-o-google-drive",
+    "href": "aula_py_01.html#montar-o-google-drive",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "Montar o Google Drive",
+    "text": "Montar o Google Drive\n\nFluxo mais importante para não perder dados, pois o ambiente é resetado\nUse Python, não shell:\n\nfrom google.colab import drive\ndrive.mount('/content/drive')\n\nAutorize o acesso com sua conta Google\nArquivos do Drive ficam acessíveis em /content/drive/MyDrive/\n\n!ls /content/drive/MyDrive/"
+  },
+  {
+    "objectID": "aula_py_01.html#hardware-gpu-e-tpu",
+    "href": "aula_py_01.html#hardware-gpu-e-tpu",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "Hardware: GPU e TPU",
+    "text": "Hardware: GPU e TPU\n\nMenu Ambiente de execução → Alterar o tipo de ambiente de execução → GPU/TPU\nUso gratuito com limites (horas por dia, conforme disponibilidade)\nÚtil para machine learning pesado; desnecessário para a maioria das análises\nConferir a GPU:\n\n!nvidia-smi\n\nPara editar notebook de outra pessoa: Arquivo → Salvar uma cópia no Drive\nCompartilhar: botão no canto superior direito (como no Google Docs) — leitor, comentarista ou editor\nBaixar para o computador: Arquivo → Fazer download (.ipynb)"
+  },
+  {
+    "objectID": "aula_py_01.html#para-lembrar",
+    "href": "aula_py_01.html#para-lembrar",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "Para lembrar",
+    "text": "Para lembrar\n\nO ambiente é temporário → salve dados e resultados no Drive\n! executa shell; % muda o notebook (%cd); %%bash e %%writefile agem na célula\n!pip install precisa ser refeito a cada sessão\nTexto em Markdown (veja o cheat sheet), código em Python\nGPU/TPU no menu Ambiente de execução — só quando precisar\n\nuv"
+  },
+  {
+    "objectID": "aula_py_01.html#células-de-código-e-de-texto",
+    "href": "aula_py_01.html#células-de-código-e-de-texto",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "Células de código e de texto",
+    "text": "Células de código e de texto\n\nCélula de código: executa Python (ou shell, com truques que veremos a seguir) com Shift+Enter\nCélula de texto: documenta o notebook com Markdown (ou tags HTML)\nAlterne entre elas no menu, nos ícones da célula ou pelos atalhos Ctrl+M M e Ctrl+M Y\nTexto e código vivem juntos: é isso que faz o notebook ser um relatório executável"
   }
 ]

@@ -513,7 +513,6 @@ Alisson Soares
 <p>Apenas para ilustrar: <a href="https://tatipara.github.io/eleicao_2026_1turno/mapa_abstencao_interativo07out.html" class="uri">https://tatipara.github.io/eleicao_2026_1turno/mapa_abstencao_interativo07out.html</a></p>
 </section>
 
-<section>
 <section id="documentário" class="title-slide slide level1 center">
 <h1>Documentário</h1>
 <p>The Story of Python and how it took over the world | Python: The Documentary</p>
@@ -521,8 +520,10 @@ Alisson Soares
 <p>Dublado em português</p>
 <iframe data-external="1" src="https://www.youtube.com/embed/eHvqTF1ySnw" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </section>
-<section id="o-notebook-jupyter" class="slide level2">
-<h2>O notebook Jupyter</h2>
+
+<section>
+<section id="notebook" class="title-slide slide level1 center">
+<h1>Notebook</h1>
 <blockquote>
 <p>“Um dos principais componentes do projeto Jupyter é o notebook: um tipo de documento interativo para código, texto (com ou sem marcação), visualizações de dados e outras saídas.” (McKinney, 2017, p.&nbsp;50)</p>
 </blockquote>
@@ -540,10 +541,10 @@ Alisson Soares
 <section id="o-arquivo-.ipynb" class="slide level2">
 <h2>O arquivo .ipynb</h2>
 <blockquote>
-<p>“Quando salvar o notebook […] um arquivo com a extensão .ipynb será criado. É um formato de arquivo autocontido, com todo o conteúdo (incluindo qualquer saída de código avaliada) que estiver no notebook no momento.” (McKinney, 2017, p.&nbsp;51)</p>
+<p>“Quando salvar o notebook… um arquivo com a extensão .ipynb será criado. É um formato de arquivo autocontido, com todo o conteúdo (incluindo qualquer saída de código avaliada) que estiver no notebook no momento.” (McKinney, 2017, p.&nbsp;51)</p>
 </blockquote>
 </section>
-<section id="notebook" class="slide level2">
+<section id="notebook-1" class="slide level2">
 <h2>notebook</h2>
 <ul>
 <li class="fragment">Código, texto (markdown) e resultados no mesmo arquivo.</li>
@@ -552,212 +553,10 @@ Alisson Soares
 </section>
 <section id="markdown-utilizado-no-notebook" class="slide level2">
 <h2>markdown (utilizado no notebook)</h2>
-<p>Markdown é um tipo de linguagem de marcação (<em>markup</em>), utilizada para formatar texto de forma fácil, leve e rápida.</p>
-<p>Exemplo de editor online com sintaxe markdown <a href="https://dillinger.io/">dillinger</a> <a href="https://markdown.org/basics/">Tutorial Básico do markdown</a></p>
+<p>Markdown é um tipo de linguagem de marcação (<em>markup</em>), utilizada para formatar texto de forma fácil, leve e rápida. Semelhante às utilizada no WhatsApp</p>
 </section>
-<section id="google-colab" class="slide level2 scrollable">
-<h2>Google Colab</h2>
-<ul>
-<li class="fragment">Notebook Jupyter rodando na nuvem do Google: nada de instalar localmente.</li>
-<li class="fragment">Células de código e de texto; salvamento automático no Google Drive.</li>
-<li class="fragment">Compartilhamento e colaboração, como um documento do Google.</li>
-<li class="fragment">Acesso a recursos de computação (incluindo GPU) — relevante em Machine Learning.</li>
-</ul>
-<ol start="4" type="1">
-<li class="fragment">Execute com Shift-Enter (ou no botão de play).</li>
-<li class="fragment">Adicione uma célula de texto (markdown) com seu nome e o título da prática.</li>
-</ol>
-</section></section>
-<section>
-<section id="o-que-é-o-google-colab" class="title-slide slide level1 center">
-<h1>O que é o Google Colab?</h1>
-<ul>
-<li class="fragment"><strong>Colaboratory</strong>: ambiente de notebooks Jupyter 100% na nuvem, do Google</li>
-<li class="fragment">Roda Python no navegador — não precisa instalar nada, só ter uma conta Google</li>
-<li class="fragment">Gratuito, com acesso a <strong>GPU</strong> e <strong>TPU</strong></li>
-<li class="fragment">Mistura <strong>células de código</strong> (Python/shell) e <strong>células de texto</strong> (Markdown/HTML)</li>
-<li class="fragment">Compartilhamento e edição em conjunto, como um Google Docs</li>
-</ul>
-</section>
-<section id="links-para-começar" class="slide level2">
-<h2>Links para começar</h2>
-<ul>
-<li class="fragment"><a href="https://colab.research.google.com/">Colab</a> — página inicial, com notebooks de exemplo (Welcome, Markdown Guide, Charts, Forms…)</li>
-<li class="fragment"><a href="https://colab.research.google.com/github/Tanu-N-Prabhu/Python/blob/master/Cheat_sheet_for_Google_Colab.ipynb">Cheat sheet para Google Colab</a> — truques para as células de <strong>texto</strong> (Markdown e HTML)</li>
-</ul>
-</section></section>
-<section id="por-que-usar-o-colab" class="title-slide slide level1 center">
-<h1>Por que usar o Colab?</h1>
-<ul>
-<li class="fragment">Zero configuração: abre e já roda</li>
-<li class="fragment">Bibliotecas já pré-instaladas: pandas, numpy, matplotlib, scikit-learn…</li>
-<li class="fragment">Integração com <strong>Google Drive</strong> e <strong>GitHub</strong></li>
-<li class="fragment">Documentação viva: código + texto explicativo no mesmo arquivo</li>
-<li class="fragment">Bom para aulas, protótipos rápidos e análise de dados em grupo</li>
-</ul>
-</section>
-
-<section>
-<section id="como-funciona-máquina-virtual-temporária" class="title-slide slide level1 center">
-<h1>Como funciona: máquina virtual temporária</h1>
-<ul>
-<li class="fragment">Cada notebook roda em uma <strong>máquina virtual</strong> (VM) temporária na nuvem</li>
-<li class="fragment">Após muito tempo parado, o ambiente <strong>desconecta</strong> (~90 min de inatividade), para economizar recursos</li>
-<li class="fragment">Sessões também têm duração máxima (≈ 12 h, varia conforme demanda da plataforma)</li>
-<li class="fragment"><strong>Código e texto ficam salvos</strong> no notebook (no Drive)…</li>
-</ul>
-<div class="callout callout-important callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>…mas os arquivos não</strong></p>
-</div>
-<div class="callout-content">
-<p>Ao desconectar, tudo que estava no disco da VM é <strong>apagado</strong>. Guarde dados e resultados no Google Drive.</p>
-</div>
-</div>
-</div>
-</section>
-<section id="passo-a-passo-no-colab" class="slide level2 scrollable">
-<h2>Passo a passo no Colab</h2>
-<ol type="1">
-<li class="fragment">Acesse colab.research.google.com (conta Google) e crie um novo notebook.</li>
-<li class="fragment">Renomeie: “aula01_teste.ipynb”.</li>
-<li class="fragment">Na primeira célula de código:</li>
-</ol>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a aria-label="1"></a><span class="bu">print</span>(<span class="st">"Olá, mundo!"</span>)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
-</section></section>
-<section id="o-sistema-de-arquivos" class="title-slide slide level1 center">
-<h1>O sistema de arquivos</h1>
-<ul>
-<li class="fragment"><code>/content</code> é a pasta de trabalho da VM</li>
-</ul>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a aria-label="1"></a><span class="bu">pwd</span>    <span class="co"># → /content</span></span>
-<span id="cb2-2"><a aria-label="2"></a><span class="fu">ls</span> <span class="at">-a</span>  <span class="co"># lista os arquivos, inclusive ocultos</span></span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
-<ul>
-<li class="fragment">Arquivos enviados pelo <strong>upload</strong> (ícone de pasta 📁 à esquerda) caem em <code>/content</code></li>
-<li class="fragment">Ao reiniciar o ambiente, essa pasta é <strong>esvaziada</strong></li>
-<li class="fragment">Versões do ambiente (mudam com atualizações — sempre confira):</li>
-</ul>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a aria-label="1"></a><span class="ex">python</span> <span class="at">--version</span>   <span class="co"># ex.: Python 3.13</span></span>
-<span id="cb3-2"><a aria-label="2"></a><span class="fu">uname</span> <span class="at">-a</span>           <span class="co"># kernel, arquitetura etc.</span></span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
-</section>
-
-<section id="células-de-código-e-de-texto" class="title-slide slide level1 center">
-<h1>Células de código e de texto</h1>
-<ul>
-<li class="fragment"><strong>Célula de código</strong>: executa Python (ou shell, com truques que veremos a seguir) com Shift+Enter</li>
-<li class="fragment"><strong>Célula de texto</strong>: documenta o notebook com Markdown (ou tags HTML)</li>
-<li class="fragment">Alterne entre elas no menu, nos ícones da célula ou pelos atalhos <code>Ctrl+M M</code> e <code>Ctrl+M Y</code></li>
-<li class="fragment">Texto e código vivem juntos: é isso que faz o notebook ser um relatório executável</li>
-</ul>
-</section>
-
-<section id="comandos-linux-no-colab" class="title-slide slide level1 center">
-<h1>Comandos Linux no Colab</h1>
-<ul>
-<li class="fragment">No Colab não há terminal tradicional: comande o shell com <strong><code>!</code></strong> no início da linha</li>
-</ul>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a aria-label="1"></a><span class="ex">!ls</span></span>
-<span id="cb4-2"><a aria-label="2"></a><span class="ex">!pwd</span></span>
-<span id="cb4-3"><a aria-label="3"></a><span class="ex">!cat</span> arquivo.txt</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
-<ul>
-<li class="fragment"><code>!ls</code>, <code>!pwd</code>, <code>!cat</code>, <code>!wget</code>, <code>!curl</code>, <code>uname -r</code>, <code>--version</code>, <code>--help</code>…</li>
-<li class="fragment">Dica: a saída pode ser capturada em Python — <code>arquivos = !ls</code> guarda uma lista</li>
-</ul>
-<div class="callout callout-warning callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong><code>!cd</code> não muda a pasta</strong></p>
-</div>
-<div class="callout-content">
-<p>Cada comando <code>!</code> roda em um subprocesso que é encerrado logo após. Para mudar de diretório permanentemente, use a magia <code>%cd /caminho/da/pasta</code>.</p>
-</div>
-</div>
-</div>
-</section>
-
-<section id="magias-e" class="title-slide slide level1 center">
-<h1>Magias (<code>%</code> e <code>%%</code>)</h1>
-<ul>
-<li class="fragment"><code>%</code> (magia de linha): afeta o próprio notebook, não um subprocesso
-<ul>
-<li class="fragment"><code>%cd /caminho/da/pasta</code> — muda o diretório de verdade</li>
-<li class="fragment"><code>%time</code> — mede o tempo de um comando</li>
-</ul></li>
-<li class="fragment"><code>%%</code> (magia de célula): vale para a célula inteira, linha inicial</li>
-</ul>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a aria-label="1"></a><span class="ex">%%bash</span></span>
-<span id="cb5-2"><a aria-label="2"></a><span class="bu">pwd</span></span>
-<span id="cb5-3"><a aria-label="3"></a><span class="fu">ls</span> <span class="at">-a</span></span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a aria-label="1"></a><span class="ex">%%writefile</span> teste.txt</span>
-<span id="cb6-2"><a aria-label="2"></a><span class="ex">O</span> conteúdo desta célula é salvo em /content/teste.txt</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
-<ul>
-<li class="fragment">Outras úteis: <code>%%time</code> (tempo da célula), <code>%%capture</code> (oculta a saída)</li>
-</ul>
-</section>
-
-<section id="instalação-de-pacotes-e-ambiente" class="title-slide slide level1 center">
-<h1>Instalação de pacotes e ambiente</h1>
-<ul>
-<li class="fragment"><code>pip install</code>: bibliotecas Python — <code>!pip install nome_da_biblioteca</code>
-<ul>
-<li class="fragment">A instalação é <strong>temporária</strong>: se perde ao reiniciar o ambiente</li>
-<li class="fragment">Versão fixa: <code>!pip install pandas==2.2.2</code></li>
-</ul></li>
-<li class="fragment"><code>apt-get install</code>: pacotes do sistema (não-Python) — <code>!sudo apt-get install -y ffmpeg</code></li>
-<li class="fragment"><code>wget</code> / <code>curl</code>: baixam arquivos da internet — <code>!wget https://site.com/arquivo.zip</code></li>
-<li class="fragment"><code>gdown</code>: baixa arquivos do <strong>Google Drive</strong> por link compartilhável</li>
-</ul>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a aria-label="1"></a><span class="ex">!pip</span> install gdown</span>
-<span id="cb7-2"><a aria-label="2"></a><span class="ex">!gdown</span> <span class="at">--fuzzy</span> <span class="st">"https://drive.google.com/file/d/SEU_ID/view?usp=sharing"</span></span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="callout callout-note callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Por que reinstallar?</strong></p>
-</div>
-<div class="callout-content">
-<p>A VM é descartável: a cada sessão o ambiente volta ao estado original. Guarde a lista de pacotes (ex.: um bloco <code>!pip install -r requirements.txt</code>) para recriá-la rápido.</p>
-</div>
-</div>
-</div>
-</section>
-
-<section>
-<section id="montar-o-google-drive" class="title-slide slide level1 center">
-<h1>Montar o Google Drive</h1>
-<ul>
-<li class="fragment">Fluxo mais importante para <strong>não perder dados</strong>, pois o ambiente é resetado</li>
-<li class="fragment">Use Python, não shell:</li>
-</ul>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a aria-label="1"></a><span class="im">from</span> google.colab <span class="im">import</span> drive</span>
-<span id="cb8-2"><a aria-label="2"></a>drive.mount(<span class="st">'/content/drive'</span>)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
-<ul>
-<li class="fragment">Autorize o acesso com sua conta Google</li>
-<li class="fragment">Arquivos do Drive ficam acessíveis em <code>/content/drive/MyDrive/</code></li>
-</ul>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a aria-label="1"></a><span class="ex">!ls</span> /content/drive/MyDrive/</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
-</section>
-<section id="outras-formas-de-carregar-dados" class="slide level2">
-<h2>Outras formas de carregar dados</h2>
-<ul>
-<li class="fragment"><strong>Upload manual</strong>: ícone de pasta 📁 → vai para <code>/content</code> (temporário!)</li>
-<li class="fragment"><strong>URL direta</strong>: <code>!wget</code> / <code>!curl</code>, ou direto no pandas — <code>pd.read_csv("https://...")</code></li>
-<li class="fragment"><strong>Google Drive</strong>: comando <code>gdown</code> ou via Drive montado</li>
-<li class="fragment"><strong>Google Sheets</strong>: notebook “External data: Drive, Sheets and Cloud Storage” (na página inicial do Colab)</li>
-</ul>
-</section></section>
-<section>
-<section id="células-de-texto-markdown-no-colab" class="title-slide slide level1 center">
-<h1>Células de texto: Markdown no Colab</h1>
+<section id="células-de-texto-markdown-no-colab" class="slide level2">
+<h2>Células de texto: Markdown no Colab</h2>
 <p>Do <a href="https://colab.research.google.com/github/Tanu-N-Prabhu/Python/blob/master/Cheat_sheet_for_Google_Colab.ipynb">cheat sheet</a> — o Colab também aceita tags HTML (<code>&lt;b&gt;</code>, <code>&lt;i&gt;</code>, <code>&lt;table&gt;</code>, <code>&lt;br&gt;</code>, <code>&lt;hr&gt;</code>…) nas células de texto:</p>
 <table class="caption-top">
 <thead>
@@ -810,18 +609,119 @@ Alisson Soares
 </tbody>
 </table>
 </section>
+<section id="markdown-mais-detalhes" class="slide level2">
+<h2>Markdown: Mais detalhes</h2>
+<p>Exemplo de editor online com sintaxe markdown <a href="https://dillinger.io/">dillinger</a></p>
+<p><a href="https://markdown.org/basics/">Tutorial Básico do markdown</a></p>
+</section>
 <section id="fórmulas-matemáticas-latex" class="slide level2">
 <h2>Fórmulas matemáticas (LaTeX)</h2>
-<ul>
-<li class="fragment">O Colab renderiza LaTeX dentro de células de texto</li>
-</ul>
+<p>Latex é outra linguagem de marcação, utilizada na escrita de texto científico que necessita de utilizar fórmulas matemáticas. É mais complexa que markdown</p>
+<p><code>$$y = \beta_0 + \beta_1 x + \varepsilon$$</code></p>
 <p><span class="math display">\[y = \beta_0 + \beta_1 x + \varepsilon\]</span></p>
 <ul>
-<li class="fragment">Útil em pesquisa: estatística, equações, símbolos (<span class="math inline">\(\alpha\)</span>, <span class="math inline">\(\beta\)</span>, <span class="math inline">\(\mu\)</span>…)</li>
+<li class="fragment"><p>Útil em pesquisa: estatística, equações, símbolos (<span class="math inline">\(\alpha\)</span>, <span class="math inline">\(\beta\)</span>, <span class="math inline">\(\mu\)</span>…)</p></li>
+<li class="fragment"><p>O Colab renderiza LaTeX dentro de células de texto</p></li>
 </ul>
-</section></section>
-<section id="atalhos-de-teclado" class="title-slide slide level1 center">
-<h1>Atalhos de teclado</h1>
+</section>
+<section id="notebook---google-colab" class="slide level2">
+<h2>notebook - Google Colab</h2>
+<p><img data-src="img/python/google-colab-logo.jpg" style="width:30.0%" alt="GC"> <img data-src="img/python/google-colab.jpg" style="width:130.0%" alt="GC"></p>
+</section>
+<section id="google-colab" class="slide level2">
+<h2>Google Colab</h2>
+<ul>
+<li class="fragment">Notebook Jupyter rodando na nuvem do Google: (quase) nada de instalar Python (ou R) localmente.</li>
+<li class="fragment">Células de código e de texto; salvamento automático no Google Drive.</li>
+<li class="fragment">Compartilhamento e colaboração, como um documento do Google.</li>
+<li class="fragment">Acesso a recursos de computação (incluindo GPU) — relevante em Machine Learning.</li>
+<li class="fragment">Execute com Shift-Enter (ou no botão de play).</li>
+</ul>
+</section>
+<section id="o-que-é-o-google-colab" class="slide level2">
+<h2>O que é o Google Colab?</h2>
+<ul>
+<li class="fragment"><strong>Colaboratory</strong>: ambiente de notebooks Jupyter 100% na nuvem, do Google</li>
+<li class="fragment">Roda Python no navegador — não precisa instalar nada, só ter uma conta Google</li>
+<li class="fragment">Gratuito, com acesso a <strong>GPU</strong> e <strong>TPU</strong></li>
+<li class="fragment">Mistura <strong>células de código</strong> (Python/shell) e <strong>células de texto</strong> (Markdown/HTML)</li>
+<li class="fragment">Compartilhamento e edição em conjunto, como um Google Docs</li>
+</ul>
+</section>
+<section id="links-para-começar" class="slide level2">
+<h2>Links para começar</h2>
+<ul>
+<li class="fragment"><a href="https://colab.research.google.com/">Colab</a> — página inicial, com notebooks de exemplo (Welcome, Markdown Guide, Charts, Forms…)</li>
+<li class="fragment"><a href="https://colab.research.google.com/github/Tanu-N-Prabhu/Python/blob/master/Cheat_sheet_for_Google_Colab.ipynb">Cheat sheet para Google Colab</a> — truques para as células de <strong>texto</strong> (Markdown e HTML)</li>
+</ul>
+</section>
+<section id="por-que-usar-o-colab" class="slide level2">
+<h2>Por que usar o Colab?</h2>
+<ul>
+<li class="fragment">Zero configuração: abre e já roda</li>
+<li class="fragment">Bibliotecas já pré-instaladas: pandas, numpy, matplotlib, scikit-learn…</li>
+<li class="fragment">Integração com <strong>Google Drive</strong> e <strong>GitHub</strong></li>
+<li class="fragment">Documentação viva: código + texto explicativo no mesmo arquivo</li>
+<li class="fragment">Bom para aulas, protótipos rápidos e análise de dados em grupo</li>
+</ul>
+</section>
+<section id="como-funciona-máquina-virtual-temporária" class="slide level2">
+<h2>Como funciona: máquina virtual temporária</h2>
+<ul>
+<li class="fragment">Cada notebook roda em uma <strong>máquina virtual</strong> (VM) temporária na nuvem</li>
+<li class="fragment">Após muito tempo parado, o ambiente <strong>desconecta</strong> (~90 min de inatividade), para economizar recursos</li>
+<li class="fragment">Sessões também têm duração máxima (≈ 12 h, varia conforme demanda da plataforma)</li>
+<li class="fragment"><strong>Código e texto ficam salvos</strong> no notebook (no Drive)…</li>
+</ul>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>…mas os arquivos não</strong></p>
+</div>
+<div class="callout-content">
+<p>Ao desconectar, tudo que estava no disco da VM é <strong>apagado</strong>. Guarde dados e resultados no Google Drive.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="passo-a-passo-no-colab" class="slide level2 scrollable">
+<h2>Passo a passo no Colab</h2>
+<ol type="1">
+<li class="fragment">Acesse colab.research.google.com (conta Google) e crie um novo notebook.</li>
+<li class="fragment">Renomeie: “aula01.ipynb”.</li>
+<li class="fragment">Na primeira célula de código:</li>
+</ol>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a aria-label="1"></a><span class="bu">print</span>(<span class="st">"Olá, mundo!"</span>)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="o-sistema-de-arquivos" class="slide level2">
+<h2>O sistema de arquivos</h2>
+<ul>
+<li class="fragment"><code>/content</code> é a pasta de trabalho da VM</li>
+</ul>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a aria-label="1"></a><span class="bu">pwd</span>    <span class="co"># → /content</span></span>
+<span id="cb2-2"><a aria-label="2"></a><span class="fu">ls</span> <span class="at">-a</span>  <span class="co"># lista os arquivos, inclusive ocultos</span></span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<ul>
+<li class="fragment">Arquivos enviados pelo <strong>upload</strong> (ícone de pasta 📁 à esquerda) caem em <code>/content</code></li>
+<li class="fragment">Ao reiniciar o ambiente, essa pasta é <strong>esvaziada</strong></li>
+<li class="fragment">Versões do ambiente (mudam com atualizações — sempre confira):</li>
+</ul>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a aria-label="1"></a><span class="ex">python</span> <span class="at">--version</span>   <span class="co"># ex.: Python 3.13</span></span>
+<span id="cb3-2"><a aria-label="2"></a><span class="fu">uname</span> <span class="at">-a</span>           <span class="co"># kernel, arquitetura etc.</span></span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="células-de-código-e-de-texto" class="slide level2">
+<h2>Células de código e de texto</h2>
+<ul>
+<li class="fragment"><strong>Célula de código</strong>: executa Python (ou shell, com truques que veremos a seguir) com Shift+Enter</li>
+<li class="fragment"><strong>Célula de texto</strong>: documenta o notebook com Markdown (ou tags HTML)</li>
+<li class="fragment">Alterne entre elas no menu, nos ícones da célula ou pelos atalhos <code>Ctrl+M M</code> e <code>Ctrl+M Y</code></li>
+<li class="fragment">Texto e código vivem juntos: é isso que faz o notebook ser um relatório executável</li>
+</ul>
+</section>
+<section id="atalhos-de-teclado" class="slide level2">
+<h2>Atalhos de teclado</h2>
 <table class="caption-top">
 <thead>
 <tr class="header">
@@ -870,9 +770,105 @@ Alisson Soares
 </div>
 </div>
 </section>
-
-<section id="hardware-gpu-e-tpu" class="title-slide slide level1 center">
-<h1>Hardware: GPU e TPU</h1>
+<section id="comandos-linux-no-colab" class="slide level2">
+<h2>Comandos Linux no Colab</h2>
+<ul>
+<li class="fragment">No Colab não há terminal tradicional: comande o shell com <strong><code>!</code></strong> no início da linha</li>
+</ul>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a aria-label="1"></a><span class="ex">!ls</span> <span class="co"># lista arquivos da pasta</span></span>
+<span id="cb4-2"><a aria-label="2"></a><span class="ex">!pwd</span> <span class="co"># mostra a pasta atual</span></span>
+<span id="cb4-3"><a aria-label="3"></a><span class="ex">!cat</span> arquivo.txt <span class="co"># mostra o conteúdo do arquivo</span></span>
+<span id="cb4-4"><a aria-label="4"></a><span class="ex">!python</span> <span class="at">--version</span> <span class="co"># qual a versão python instalada</span></span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<ul>
+<li class="fragment"><code>!ls</code>, <code>!pwd</code>, <code>!cat</code>, <code>!wget</code>, <code>!curl</code>, <code>uname -r</code>, <code>--version</code>, <code>--help</code>…</li>
+<li class="fragment">Dica: a saída pode ser capturada em Python — <code>arquivos = !ls</code> guarda uma lista</li>
+</ul>
+<div class="callout callout-warning callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong><code>!cd</code> não muda a pasta</strong></p>
+</div>
+<div class="callout-content">
+<p>Cada comando <code>!</code> roda em um subprocesso que é encerrado logo após. Para mudar de diretório permanentemente, use a magia <code>%cd /caminho/da/pasta</code>.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="magias-e" class="slide level2">
+<h2>Magias (<code>%</code> e <code>%%</code>)</h2>
+<ul>
+<li class="fragment"><code>%</code> (magia de linha): afeta o próprio notebook, não um subprocesso
+<ul>
+<li class="fragment"><code>%cd /caminho/da/pasta</code> — muda o diretório de verdade</li>
+<li class="fragment"><code>%time</code> — mede o tempo de um comando</li>
+</ul></li>
+<li class="fragment"><code>%%</code> (magia de célula): vale para a célula inteira, linha inicial</li>
+</ul>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a aria-label="1"></a><span class="ex">%%bash</span></span>
+<span id="cb5-2"><a aria-label="2"></a><span class="bu">pwd</span></span>
+<span id="cb5-3"><a aria-label="3"></a><span class="fu">ls</span> <span class="at">-a</span></span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a aria-label="1"></a><span class="ex">%%writefile</span> teste.txt</span>
+<span id="cb6-2"><a aria-label="2"></a><span class="ex">O</span> conteúdo desta célula é salvo em /content/teste.txt</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<ul>
+<li class="fragment">Outras úteis: <code>%%time</code> (tempo da célula), <code>%%capture</code> (oculta a saída)</li>
+</ul>
+</section>
+<section id="instalação-de-pacotes-e-ambiente" class="slide level2">
+<h2>Instalação de pacotes e ambiente</h2>
+<ul>
+<li class="fragment"><code>pip install</code>: bibliotecas Python — <code>!pip install nome_da_biblioteca</code>
+<ul>
+<li class="fragment">A instalação é <strong>temporária</strong>: se perde ao reiniciar o ambiente</li>
+<li class="fragment">Versão fixa: <code>!pip install pandas==2.2.2</code></li>
+</ul></li>
+<li class="fragment"><code>apt-get install</code>: pacotes do sistema (não-Python) — <code>!sudo apt-get install -y ffmpeg</code></li>
+<li class="fragment"><code>wget</code> / <code>curl</code>: baixam arquivos da internet — <code>!wget https://site.com/arquivo.zip</code></li>
+<li class="fragment"><code>gdown</code>: baixa arquivos do <strong>Google Drive</strong> por link compartilhável</li>
+</ul>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a aria-label="1"></a><span class="ex">!pip</span> install gdown</span>
+<span id="cb7-2"><a aria-label="2"></a><span class="ex">!gdown</span> <span class="at">--fuzzy</span> <span class="st">"https://drive.google.com/file/d/SEU_ID/view?usp=sharing"</span></span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Por que reinstallar?</strong></p>
+</div>
+<div class="callout-content">
+<p>A VM é descartável: a cada sessão o ambiente volta ao estado original. Guarde a lista de pacotes (ex.: um bloco <code>!pip install -r requirements.txt</code>) para recriá-la rápido.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="montar-o-google-drive" class="slide level2">
+<h2>Montar o Google Drive</h2>
+<ul>
+<li class="fragment">Fluxo mais importante para <strong>não perder dados</strong>, pois o ambiente é resetado</li>
+<li class="fragment">Use Python, não shell:</li>
+</ul>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a aria-label="1"></a><span class="im">from</span> google.colab <span class="im">import</span> drive</span>
+<span id="cb8-2"><a aria-label="2"></a>drive.mount(<span class="st">'/content/drive'</span>)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<ul>
+<li class="fragment">Autorize o acesso com sua conta Google</li>
+<li class="fragment">Arquivos do Drive ficam acessíveis em <code>/content/drive/MyDrive/</code></li>
+</ul>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a aria-label="1"></a><span class="ex">!ls</span> /content/drive/MyDrive/</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="outras-formas-de-carregar-dados" class="slide level2">
+<h2>Outras formas de carregar dados</h2>
+<ul>
+<li class="fragment"><strong>Upload manual</strong>: ícone de pasta 📁 → vai para <code>/content</code> (temporário!)</li>
+<li class="fragment"><strong>URL direta</strong>: <code>!wget</code> / <code>!curl</code>, ou direto no pandas — <code>pd.read_csv("https://...")</code></li>
+<li class="fragment"><strong>Google Drive</strong>: comando <code>gdown</code> ou via Drive montado</li>
+<li class="fragment"><strong>Google Sheets</strong>: notebook “External data: Drive, Sheets and Cloud Storage” (na página inicial do Colab)</li>
+</ul>
+</section>
+<section id="hardware-gpu-e-tpu" class="slide level2">
+<h2>Hardware: GPU e TPU</h2>
 <ul>
 <li class="fragment">Menu <strong>Ambiente de execução → Alterar o tipo de ambiente de execução</strong> → GPU/TPU</li>
 <li class="fragment">Uso gratuito com limites (horas por dia, conforme disponibilidade)</li>
@@ -880,20 +876,14 @@ Alisson Soares
 <li class="fragment">Conferir a GPU:</li>
 </ul>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb10-1"><a aria-label="1"></a><span class="ex">!nvidia-smi</span></span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
-</section>
-
-<section id="colab-github-e-compartilhamento" class="title-slide slide level1 center">
-<h1>Colab, GitHub e compartilhamento</h1>
 <ul>
-<li class="fragment">O Colab abre notebooks direto do <strong>GitHub</strong>: Arquivo → Abrir notebook → GitHub (ou cole a URL do <code>.ipynb</code>)</li>
 <li class="fragment">Para editar notebook de outra pessoa: <strong>Arquivo → Salvar uma cópia no Drive</strong></li>
 <li class="fragment"><strong>Compartilhar</strong>: botão no canto superior direito (como no Google Docs) — leitor, comentarista ou editor</li>
 <li class="fragment">Baixar para o computador: Arquivo → Fazer download (.ipynb)</li>
 </ul>
 </section>
-
-<section id="para-lembrar" class="title-slide slide level1 center">
-<h1>Para lembrar</h1>
+<section id="para-lembrar" class="slide level2">
+<h2>Para lembrar</h2>
 <ul>
 <li class="fragment">O ambiente é <strong>temporário</strong> → salve dados e resultados no <strong>Drive</strong></li>
 <li class="fragment"><code>!</code> executa shell; <code>%</code> muda o notebook (<code>%cd</code>); <code>%%bash</code> e <code>%%writefile</code> agem na célula</li>
@@ -903,8 +893,7 @@ Alisson Soares
 </ul>
 <p>uv</p>
 <!-- {{< include ./aula_modulos/install_run.qmd >}} -->
-</section>
-
+</section></section>
 <section id="referências" class="title-slide slide level1 center">
 <h1>Referências</h1>
 <ul>
