@@ -1,0 +1,233 @@
+[
+  {
+    "objectID": "aula_py_01.html#section",
+    "href": "aula_py_01.html#section",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "",
+    "text": "Curso de especialização em:\n\n\n\nCiências Sociais de Dados: Aplicações de Métodos Quantitativos à Análise Social e à Avaliação de Políticas Públicas\n\n\nMódulo: 04 – Introdução à Análise de Dados com Python\n Docente: Prof. Dr. Alisson Soares\nAula por: Alisson Soares"
+  },
+  {
+    "objectID": "aula_py_01.html#linguagens-de-programação-em-ciência-de-dados",
+    "href": "aula_py_01.html#linguagens-de-programação-em-ciência-de-dados",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "Linguagens de programação em Ciência de Dados",
+    "text": "Linguagens de programação em Ciência de Dados\n\nSQL, Python, R, Julia, Elixir.\nR e Julia: mais focados em estatística e ciência de dados.\nPython: linguagem de uso geral.\n\n\n“Desde o seu surgimento em 1991, Python se tornou uma das linguagens de programação interpretadas mais populares, junto com Perl, Ruby e outras.” (McKinney, 2017, p. 24)"
+  },
+  {
+    "objectID": "aula_py_01.html#uma-breve-história",
+    "href": "aula_py_01.html#uma-breve-história",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "Uma breve história",
+    "text": "Uma breve história\n\nCriada por Guido van Rossum; versão 0.9.0 publicada em 19 de fevereiro de 1991.\nIdentação obrigatória; tipagem dinâmica; prioridade na legibilidade.\nDemorou cerca de 25 anos para “pegar”: era usada para prototipar."
+  },
+  {
+    "objectID": "aula_py_01.html#o-ponto-de-virada",
+    "href": "aula_py_01.html#o-ponto-de-virada",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "O ponto de virada",
+    "text": "O ponto de virada\n\nDeep Learning e redes neurais profundas impulsionam o uso (Theano, Caffe, TensorFlow, PyTorch — 2006–2016).\n\n\n“Em 2014… Python é atualmente a linguagem mais popular para o ensino de disciplinas introdutórias de ciência da computação nos departamentos norte-americanos mais bem classificados. Especificamente, oito dos 10 melhores departamentos de CS (80%), e 27 dos 39 melhores (69%), ensinam Python em disciplinas introdutórias CS0 ou CS1.” (CACM, jul. 2014) “Em 2014… Python is currently the most popular language for teaching introductory computer science courses at top-ranked U.S. departments. Specifically, eight of the top 10 CS departments (80%), and 27 of the top 39 (69%), teach Python in introductory CS0 or CS1 courses.” (CACM, jul. 2014)\n\n\n2023: Microsoft anuncia Python como linguagem nativa dentro do Excel."
+  },
+  {
+    "objectID": "aula_py_01.html#python-entre-as-linguagens-mais-utilizadas",
+    "href": "aula_py_01.html#python-entre-as-linguagens-mais-utilizadas",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "Python entre as linguagens mais utilizadas",
+    "text": "Python entre as linguagens mais utilizadas\nhttps://www.index.dev/blog/popular-programming-language\nhttps://fosspost.org/most-used-programming-languages/"
+  },
+  {
+    "objectID": "aula_py_01.html#por-que-python-para-análise-de-dados",
+    "href": "aula_py_01.html#por-que-python-para-análise-de-dados",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "Por que Python para análise de dados?",
+    "text": "Por que Python para análise de dados?\n\n“Nos últimos anos, o suporte melhorado de Python para bibliotecas (como o pandas e o scikit-learn) o transformou em uma opção popular para tarefas de análise de dados. Em conjunto com a robustez de Python para uma engenharia de software de propósito geral, é uma excelente opção como uma linguagem principal para a construção de aplicações de dados.” (McKinney, 2017, p. 25)"
+  },
+  {
+    "objectID": "aula_py_01.html#python-como-aglutinador",
+    "href": "aula_py_01.html#python-como-aglutinador",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "Python como aglutinador",
+    "text": "Python como aglutinador\n\n“Parte do sucesso de Python no processamento científico deve-se à facilidade de integração com códigos em C, C++ e FORTRAN.” (McKinney, 2017, p. 25)\n\n\nBibliotecas legadas em C/FORTRAN (álgebra linear, otimização) acessadas a partir de Python."
+  },
+  {
+    "objectID": "aula_py_01.html#resolvendo-o-problema-de-duas-linguagens",
+    "href": "aula_py_01.html#resolvendo-o-problema-de-duas-linguagens",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "Resolvendo o problema de “duas linguagens”",
+    "text": "Resolvendo o problema de “duas linguagens”\n\n“Em muitas empresas, é comum fazer pesquisas, gerar protótipos e testar novas ideias usando uma linguagem de computação mais especializada, como SAS e R, e então, posteriormente, portar essas ideias para que façam parte de um sistema maior de produção… O que as pessoas percebem cada vez mais é que Python é uma linguagem apropriada não só para pesquisas e prototipagem, mas também para a construção de sistemas de produção. Por que manter dois ambientes de desenvolvimento quando um só seria suficiente?” (McKinney, 2017, p. 26)\n\nEx.: Quaest\nEmpresas que Usam Python no Brasil"
+  },
+  {
+    "objectID": "aula_py_01.html#por-que-não-python",
+    "href": "aula_py_01.html#por-que-não-python",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "Por que não Python?",
+    "text": "Por que não Python?\n\n“Pelo fato de Python ser uma linguagem de programação interpretada, em geral, a maior parte do código Python executará de forma substancialmente mais lenta do que um código escrito em uma linguagem compilada, como Java ou C++. Como o tempo do programador com frequência é mais valioso do que o tempo de CPU, muitas pessoas ficarão satisfeitas com essa negociação de custo-benefício.” (McKinney, 2017, p. 26)"
+  },
+  {
+    "objectID": "aula_py_01.html#comunidades-python-no-brasil",
+    "href": "aula_py_01.html#comunidades-python-no-brasil",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "Comunidades Python no Brasil",
+    "text": "Comunidades Python no Brasil\nPython:\n\nBrasil\nAssociação Python Brasil\nCerrado Centro-oeste, Nordeste, Norte, Sudeste, Sul.\n\nGrupy-DF\nCaipyra (interior de SP)\nPug-PE, Pug-SE, GruPy-RN"
+  },
+  {
+    "objectID": "aula_py_01.html#pyladies",
+    "href": "aula_py_01.html#pyladies",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "PyLadies",
+    "text": "PyLadies\n \n\nhttps://pyladies.com/\nhttps://brasil.pyladies.com/\n\n\n\nLocalizações do PyLadies\n\n\npyladies:\n\npyladies-df"
+  },
+  {
+    "objectID": "aula_py_01.html#eventos",
+    "href": "aula_py_01.html#eventos",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "Eventos",
+    "text": "Eventos\n\nPython Brasil\nPython Norte\nPython Nordeste\nPython Sul\nPython Sudeste\nPython Cerrado"
+  },
+  {
+    "objectID": "aula_py_01.html#que-tipos-de-dados",
+    "href": "aula_py_01.html#que-tipos-de-dados",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "Que tipos de dados?",
+    "text": "Que tipos de dados?\n\n“O foco principal está nos dados estruturados… por exemplo: Dados tabulares ou do tipo planilha… Arrays multidimensionais (matrizes). Várias tabelas de dados inter-relacionadas por colunas de chaves… Séries temporais uniformemente espaçadas ou não.” (McKinney, 2017, p. 23)\n\n\n\n\n\n\n\nDica\n\n\nBases de pesquisas sociais, registros administrativos e dados de políticas públicas são, em geral, dados tabulares — o caso central do curso."
+  },
+  {
+    "objectID": "aula_py_01.html#visão-geral",
+    "href": "aula_py_01.html#visão-geral",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "Visão geral",
+    "text": "Visão geral\n\n\n\nBiblioteca\nPara que serve\n\n\n\n\nNumPy\nArrays numéricos e computação eficiente\n\n\npandas\nEstruturas de dados tabulares (DataFrame)\n\n\nmatplotlib\nVisualização (plotagens 2D)\n\n\nIPython / Jupyter\nProcessamento interativo, notebooks\n\n\nSciPy\nComputação científica (integração, otimização…)\n\n\nscikit-learn\nAprendizado de máquina\n\n\nstatsmodels\nEstatística clássica e econometria"
+  },
+  {
+    "objectID": "aula_py_01.html#numpy",
+    "href": "aula_py_01.html#numpy",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "NumPy",
+    "text": "NumPy\n\n“Além dos recursos de processamento rápido de arrays que a NumPy acrescenta ao Python, um de seus principais usos em análise de dados é como um contêiner para que dados sejam passados entre algoritmos e bibliotecas.” (McKinney, 2017, p. 28)\n\n\nBase numérica sobre a qual pandas e outras bibliotecas se apoiam."
+  },
+  {
+    "objectID": "aula_py_01.html#pandas",
+    "href": "aula_py_01.html#pandas",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "Pandas",
+    "text": "Pandas\n\n\n“O próprio nome pandas é derivado de panel data (dados em painel), um termo de econometria para conjuntos de dados multidimensionais estruturados, e uma brincadeira com a própria expressão Python data analysis.” (McKinney, 2017, p. 30)\n\n\nO DataFrame recebeu o nome do objeto data.frame de R (p. 29)."
+  },
+  {
+    "objectID": "aula_py_01.html#matplotlib",
+    "href": "aula_py_01.html#matplotlib",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "Matplotlib",
+    "text": "Matplotlib\n\n“A matplotlib… é a biblioteca Python mais popular para fazer plotagens e gerar outras visualizações de dados bidimensionais.” (McKinney, 2017, p. 30)\n\n\nCriada por John D. Hunter; hoje mantida por uma grande equipe de desenvolvedores.\nBase das visualizações do pandas; plotly como alternativa interativa."
+  },
+  {
+    "objectID": "aula_py_01.html#ipython-e-jupyter",
+    "href": "aula_py_01.html#ipython-e-jupyter",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "IPython e Jupyter",
+    "text": "IPython e Jupyter\n\n“Ele incentiva um fluxo de trabalho de execução-exploração, em vez do fluxo de trabalho típico de edição-compilação-execução de muitas outras linguagens de programação.” (McKinney, 2017, p. 31)\n\n\n“Em 2014, Fernando e a equipe do IPython anunciaram o projeto Jupyter: uma iniciativa mais ampla para projetar ferramentas de processamento interativas, independentes da linguagem.” (McKinney, 2017, p. 31)\n\n\nO notebook do IPython passou a ser o notebook Jupyter (suporte a mais de 40 linguagens)."
+  },
+  {
+    "objectID": "aula_py_01.html#scikit-learn-e-statsmodels",
+    "href": "aula_py_01.html#scikit-learn-e-statsmodels",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "scikit-learn e statsmodels",
+    "text": "scikit-learn e statsmodels\n\nscikit-learn: “o principal kit de ferramentas de propósito geral para aprendizado de máquina dos programadores Python” (McKinney, 2017, p. 33).\nstatsmodels: “contém algoritmos para estatística clássica (principalmente frequentista) e econometria” (McKinney, 2017, p. 34) — regressão, ANOVA, séries temporais."
+  },
+  {
+    "objectID": "aula_py_01.html#jargão-da-análise-de-dados",
+    "href": "aula_py_01.html#jargão-da-análise-de-dados",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "Jargão da análise de dados",
+    "text": "Jargão da análise de dados\n\n“Manipular/manipulação/tratamento (Munge/munging/wrangling): Descreve o processo geral de manipulação de dados não estruturados e/ou desorganizados, convertendo-os em um formato estruturado ou limpo.” (McKinney, 2017, p. 43)"
+  },
+  {
+    "objectID": "aula_py_01.html#linguagem-interpretada",
+    "href": "aula_py_01.html#linguagem-interpretada",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "Linguagem interpretada",
+    "text": "Linguagem interpretada\n\n“O interpretador Python roda um programa executando uma instrução por vez.” (McKinney, 2017, p. 47)\n\n\nSem etapa de compilação separada: escreveu, executou.\nFacilita o fluxo interativo de análise (executar → ver resultado → ajustar)."
+  },
+  {
+    "objectID": "aula_py_01.html#python-2-e-python-3",
+    "href": "aula_py_01.html#python-2-e-python-3",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "Python 2 e Python 3",
+    "text": "Python 2 e Python 3\n\n“A primeira versão de interpretadores da linha Python 3.x foi lançada no final de 2008. Ela incluía uma série de mudanças que deixaram alguns códigos anteriormente escritos com Python 2.x incompatíveis.” (McKinney, 2017, p. 38)\n\n\nPython 2 ficou sem suporte em jan/2020.\nHoje: use sempre Python 3.x."
+  },
+  {
+    "objectID": "aula_py_01.html#o-notebook-jupyter",
+    "href": "aula_py_01.html#o-notebook-jupyter",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "O notebook Jupyter",
+    "text": "O notebook Jupyter\n\n“Um dos principais componentes do projeto Jupyter é o notebook: um tipo de documento interativo para código, texto (com ou sem marcação), visualizações de dados e outras saídas.” (McKinney, 2017, p. 50)\n\n\nJupyter notebook"
+  },
+  {
+    "objectID": "aula_py_01.html#o-arquivo-.ipynb",
+    "href": "aula_py_01.html#o-arquivo-.ipynb",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "O arquivo .ipynb",
+    "text": "O arquivo .ipynb\n\n“Quando salvar o notebook […] um arquivo com a extensão .ipynb será criado. É um formato de arquivo autocontido, com todo o conteúdo (incluindo qualquer saída de código avaliada) que estiver no notebook no momento.” (McKinney, 2017, p. 51)"
+  },
+  {
+    "objectID": "aula_py_01.html#google-colab",
+    "href": "aula_py_01.html#google-colab",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "Google Colab",
+    "text": "Google Colab\n\nNotebook Jupyter rodando na nuvem do Google: nada de instalar localmente.\nCélulas de código e de texto; salvamento automático no Google Drive.\nCompartilhamento e colaboração, como um documento do Google.\nAcesso a recursos de computação (incluindo GPU) — relevante em Machine Learning.\n\n\nExecute com Shift-Enter (ou no botão de play).\nAdicione uma célula de texto (markdown) com seu nome e o título da prática."
+  },
+  {
+    "objectID": "aula_py_01.html#links-para-começar",
+    "href": "aula_py_01.html#links-para-começar",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "Links para começar",
+    "text": "Links para começar\n\nColab — página inicial, com notebooks de exemplo (Welcome, Markdown Guide, Charts, Forms…)\nCheat sheet para Google Colab — truques para as células de texto (Markdown e HTML)"
+  },
+  {
+    "objectID": "aula_py_01.html#passo-a-passo-no-colab",
+    "href": "aula_py_01.html#passo-a-passo-no-colab",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "Passo a passo no Colab",
+    "text": "Passo a passo no Colab\n\nAcesse colab.research.google.com (conta Google) e crie um novo notebook.\nRenomeie: “aula01_teste.ipynb”.\nNa primeira célula de código:\n\nprint(\"Olá, mundo!\")"
+  },
+  {
+    "objectID": "aula_py_01.html#outras-formas-de-carregar-dados",
+    "href": "aula_py_01.html#outras-formas-de-carregar-dados",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "Outras formas de carregar dados",
+    "text": "Outras formas de carregar dados\n\nUpload manual: ícone de pasta 📁 → vai para /content (temporário!)\nURL direta: !wget / !curl, ou direto no pandas — pd.read_csv(\"https://...\")\nGoogle Drive: comando gdown ou via Drive montado\nGoogle Sheets: notebook “External data: Drive, Sheets and Cloud Storage” (na página inicial do Colab)"
+  },
+  {
+    "objectID": "aula_py_01.html#fórmulas-matemáticas-latex",
+    "href": "aula_py_01.html#fórmulas-matemáticas-latex",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "Fórmulas matemáticas (LaTeX)",
+    "text": "Fórmulas matemáticas (LaTeX)\n\nO Colab renderiza LaTeX dentro de células de texto\n\n\\[y = \\beta_0 + \\beta_1 x + \\varepsilon\\]\n\nÚtil em pesquisa: estatística, equações, símbolos (\\(\\alpha\\), \\(\\beta\\), \\(\\mu\\)…)"
+  },
+  {
+    "objectID": "aula_py_01.html#comunidades-python---pyladies",
+    "href": "aula_py_01.html#comunidades-python---pyladies",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "Comunidades Python - PyLadies",
+    "text": "Comunidades Python - PyLadies\n\n\n\nhttps://pyladies.com/\nhttps://brasil.pyladies.com/\nLocalizações do PyLadies"
+  },
+  {
+    "objectID": "aula_py_01.html#que-tipos-de-dados-em-análise-de-dados",
+    "href": "aula_py_01.html#que-tipos-de-dados-em-análise-de-dados",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "Que tipos de dados em Análise de Dados?",
+    "text": "Que tipos de dados em Análise de Dados?\n\n“O foco principal está nos dados estruturados… por exemplo: Dados tabulares ou do tipo planilha… Arrays multidimensionais (matrizes). Várias tabelas de dados inter-relacionadas por colunas de chaves… Séries temporais uniformemente espaçadas ou não.” (McKinney, 2017, p. 23)\n\n\n\n\n\n\n\nDica\n\n\nBases de pesquisas sociais, registros administrativos e dados de políticas públicas são, em geral, dados tabulares — o caso central do curso."
+  },
+  {
+    "objectID": "aula_py_01.html#notebook",
+    "href": "aula_py_01.html#notebook",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "notebook",
+    "text": "notebook\n\nCódigo, texto (markdown) e resultados no mesmo arquivo.\nCélulas executadas com Shift-Enter."
+  },
+  {
+    "objectID": "aula_py_01.html#markdown-utilizado-no-notebook",
+    "href": "aula_py_01.html#markdown-utilizado-no-notebook",
+    "title": "Introdução à Análise de Dados com Python — Aula 01: Apresentação do Python, ambientes e notebooks",
+    "section": "markdown (utilizado no notebook)",
+    "text": "markdown (utilizado no notebook)\nMarkdown é um tipo de linguagem de marcação (markup), utilizada para formatar texto de forma fácil, leve e rápida.\nExemplo de editor online com sintaxe markdown dillinger Tutorial Básico do markdown"
+  }
+]
